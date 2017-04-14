@@ -23,11 +23,11 @@ Remember the pagination html structure have to follow as below
 	<li class="disabled"><a href="#">&raquo;</a></li>
 </ul>
 ```
-I've build it to work with Twitter Bootstrap, for other framework just use the same html structure and user jQuery selector as the example  below : 
+I've build it to work with Twitter Bootstrap, for other just use the same html structure and use jQuery selector as the example  below : 
 
 ```javascript
 $('.yourPaginationClass').PressNav({
-  nextClass: '.yourPaginationClass > li:first-child > a',
+	nextClass: '.yourPaginationClass > li:first-child > a',
 	prevClass: '.yourPaginationClass > li:last-child > a',
 });
 ```
